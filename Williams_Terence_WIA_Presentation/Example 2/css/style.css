@@ -1,0 +1,11 @@
+html{
+    background: #000;
+}
+
+h1{
+    font-size: 120px;
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}

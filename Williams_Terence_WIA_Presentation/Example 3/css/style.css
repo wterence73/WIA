@@ -1,0 +1,40 @@
+/** Css Beginning **/
+
+html{
+    background: #b82b2b; 
+}
+
+body{
+    margin: 0, auto;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 35px;
+}
+
+form{
+    margin: 0 auto; 
+    width:350px;
+    margin-top: 200px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 65px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    background: #f5eba5;
+    font-size: 18px;
+}
+
+button{
+    width: 250px;
+    text-align: center;
+    border: 1px solid #000;
+    background: #3370df;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 75px;
+}
