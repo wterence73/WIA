@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="EN">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>My WIA Project</title>
+        <link type="text/css" href="css/style.css" rel="stylesheet"/>
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/lightbox-2.6.min.js"></script>
+    	<link href="css/lightbox.css" rel="stylesheet" />
+        <script src="js/graph.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+        <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+    </head>
+    
+    <body>
+        
+        <article>
+            
+            <header>
+                Walt Disney World
+            </header>
+            
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About Disney</li>
+                    <li>Buy Tickets</li>
+                    <li>Image Gallery</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+            
+            <section id="about">
+                <h2>It's all about Disney</h2>
+                <p>Where you come to realize life is enjoyable!!</p>
+                <img src="images/mickey.jpeg" width="100" height="100" data-anijs="if: mouseover, do: rotate animated"/>
+                <img src="images/disney-minnie-mouse.jpg" width="100" height="100" data-anijs="if: mouseover, do: rotate animated"/>
+                <img src="images/donald-duck-973226_640.jpg" width="100" height="100" data-anijs="if: mouseover, do: rotate animated"/>
+                <img src="images/pluto-486130_640.jpg" width="100" height="100" data-anijs="if: mouseover, do: rotate animated"/>
+            </section>
+            
+            <section id="explore">
+                <h2>Let's Explore More</h2>
+                <img src="images/ticket-153937_640.png" width="200" height="100" data-anijs="if: mouseover, do: wobble animated"/>
+                <canvas></canvas>
+                <div class="chart">
+                    <ul id="numbers">
+                        <li><span>100%</span></li>
+                        <li><span>90%</span></li>
+                        <li><span>80%</span></li>
+                        <li><span>70%</span></li>
+                        <li><span>60%</span></li>
+                        <li><span>50%</span></li>
+                        <li><span>40%</span></li>
+                        <li><span>30%</span></li>
+                        <li><span>20%</span></li>
+                        <li><span>10%</span></li>
+                        <li><span>0%</span></li>
+                    </ul>
+                    
+                    <ul id="bars">
+                        <li><div data-percentage="70" class="bar"></div><span>Spring</span></li>
+                        <li><div data-percentage="94" class="bar"></div><span>Summer</span></li>
+                        <li><div data-percentage="55" class="bar"></div><span>Fall</span></li>
+                        <li><div data-percentage="25" class="bar"></div><span>Winter</span></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="image">
+                <h2>Disney Gallery of Wonders</h2>
+                <a href="images/vill.jpg" data-lightbox="group1" title="My Caption">
+       		<img src="images/vill.jpg" alt="Image 1" width="150" height="150">
+       </a>
+        
+         <a href="images/castle.jpg" data-lightbox="group1" title="My Second Caption">
+       		<img src="images/castle.jpg" alt="Image 2" width="150" height="150">
+       </a>
+    	
+       <a href="images/disney-world-63540_640.jpg" data-lightbox="group2" title="My Third Caption">
+       		<img src="images/disney-world-63540_640.jpg" alt="Image 3" width="150" height="150">
+       </a>
+   		<a href="images/mickey-mouse-252815_640.jpg" data-lightbox="group2" title="My 4th Caption">
+       		<img src="images/mickey-mouse-252815_640.jpg" alt="Image 4" width="150" height="150">
+       </a>
+            </section>
+            
+            
+        </article>
+        
+        <script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+  
+        <script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+        
+        
+    </body>
+    
+    
+</html>
