@@ -1,3 +1,16 @@
+$(function() {
+    // Modernizr function to check if browser supports canvas
+    var modernizrTest = function() {
+        if(Modernizr.canvas) {
+            var theCanvas = document.getElementById("Canvas1");
+            console.log("Canvas is working");
+        } else {
+            console.log("Your browser does not support HTML5 canvas.");
+        }
+    }    
+    modernizrTest();
+
+
 window.onload = function() {
     
  var theCanvas = document.getElementById('Canvas1');
