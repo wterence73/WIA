@@ -6,8 +6,16 @@ html{
 
 header{
     background-color: black;
-    background-size: 1525px 700px;
     padding-bottom: 100px;
+    margin-top: -9px;
+    margin-left: -8px;
+    width: 1425px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 120px;
+    padding-top: 70px;
+    font-family: waltograph;
 }
 
 ul{
@@ -29,7 +37,7 @@ nav li{
 
 section{
     padding: 115px;
-    margin-bottom: 90px;
+    margin-bottom: 200px;
 }
 
 h2{
@@ -53,20 +61,58 @@ p{
     border-radius: 50%;
 }
 
+#about img:hover{
+    border: 3px solid #b0f230;
+}
+
+#explore img{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
 canvas{
     border: 1px solid #000;
     margin-left: 200px;
     display: block;
     margin: 0 auto;
+    clear: both;
+}
+
+#Canvas1{
+    background: #fff;
+    float: left;
+    margin-left: 440px;
+    margin-top: -120px;
+}
+
+#Canvas2{
+    background: #535353;
+}
+
+video{
+    float: right;
+    margin-right: 50px;
+    margin-top: -120px;
+}
+
+#image{
+    margin-top: 400px;
+}
+
+#image h2{
+    margin-bottom: 120px;
 }
 
 #image img{
     float: right;
     margin-right: 105px;
+    margin-bottom: 100px;
 }
 
 .chart{
     float: right;
+    width: 100px;
 }
 
 #chart {

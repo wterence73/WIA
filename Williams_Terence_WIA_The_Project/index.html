@@ -8,6 +8,7 @@
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/lightbox-2.6.min.js"></script>
     	<link href="css/lightbox.css" rel="stylesheet" />
+        <script src="js/main.js"></script>
         <script src="js/graph.js"></script>
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
@@ -44,7 +45,13 @@
             <section id="explore">
                 <h2>Let's Explore More</h2>
                 <img src="images/ticket-153937_640.png" width="200" height="100" data-anijs="if: mouseover, do: wobble animated"/>
-                <canvas></canvas>
+                <canvas id="Canvas1">Your browser does not support canvas.</canvas>
+                <video id="video1" controls width="270">
+                <source src="video/inside.mp4" type='video/mp4'>
+                <source src="inside.ogg" type='video/ogg'>
+                <source src="inside.webm" type='video/webm'>
+                </video>
+                
                 <div class="chart">
                     <ul id="numbers">
                         <li><span>100%</span></li>
@@ -67,9 +74,11 @@
                         <li><div data-percentage="25" class="bar"></div><span>Winter</span></li>
                     </ul>
                 </div>
+                
             </section>
             
             <section id="image">
+                
                 <h2>Disney Gallery of Wonders</h2>
                 <a href="images/vill.jpg" data-lightbox="group1" title="My Caption">
        		<img src="images/vill.jpg" alt="Image 1" width="150" height="150">
@@ -85,6 +94,9 @@
    		<a href="images/mickey-mouse-252815_640.jpg" data-lightbox="group2" title="My 4th Caption">
        		<img src="images/mickey-mouse-252815_640.jpg" alt="Image 4" width="150" height="150">
        </a>
+                <canvas id="Canvas2" width="700" height="500">Your browser does not support canvas.</canvas>
+                <img id="img2" src="images/thefamily.jpg" style="display:none;">
+            
             </section>
             
             
