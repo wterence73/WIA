@@ -1,19 +1,6 @@
-$(function() {
-    // Modernizr function to check if browser supports canvas
-    var modernizrTest = function() {
-        if(Modernizr.canvas) {
-            var theCanvas = document.getElementById("Canvas1");
-            console.log("Canvas is working");
-        } else {
-            console.log("Your browser does not support HTML5 canvas.");
-        }
-    }    
-    modernizrTest();
-
-
 window.onload = function() {
     
- var theCanvas = document.getElementById('Canvas1');
+var theCanvas = document.getElementById('Canvas1');
     
     if (theCanvas && theCanvas.getContext) {
         var ctx = theCanvas.getContext("2d");
@@ -27,7 +14,7 @@ window.onload = function() {
             
         }
         
-    }   
+    }
     
     var theCanvas = document.getElementById('Canvas2');
     
@@ -52,10 +39,11 @@ window.onload = function() {
 
             ctx.font="36pt Comic Sans";
             ctx.fillStyle="red";
-            ctx.fillText(myText,110,450);
+            ctx.fillText(myText,110,460);
             
         }
         
-    }   
-    
-}
+    }
+
+
+}   
